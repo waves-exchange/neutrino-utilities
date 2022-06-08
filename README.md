@@ -10,6 +10,16 @@ sudo apt install python3-testresources
 pip install pywaves
 ```
 
+You must allow your node REST API at least for localhost:
+```
+  # Node's REST API settings
+  rest-api {
+    # Enable/disable node's REST API
+    enable = yes
+
+    # Network address to bind to
+    bind-address = "127.0.0.1"
+```
 Edit the script - insert your node private key and your beneficiary address (where the 5% of rewards will be sent)
 
 Test the script:

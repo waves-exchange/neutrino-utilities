@@ -57,3 +57,30 @@ Test the script:
 ```
 python3 telegram_bot.py
 ```
+
+## Install a RIDE script to mining node
+As you know, since node version 1.4 it is possible for mining node to have a script.
+
+
+System preparation:
+```
+sudo apt install build-essential
+sudo apt install python3-dev
+sudo apt install python3-pip
+sudo apt install python3-testresources
+pip install pywaves
+```
+
+You must allow your node REST API at least for localhost:
+```
+  # Node's REST API settings
+  rest-api {
+    # Enable/disable node's REST API
+    enable = yes
+
+    # Network address to bind to
+    bind-address = "127.0.0.1"
+```
+Edit the script - insert your node private key and actual base64-encoded script instead of script = 'base64:' line.
+Run the script, make sure there are no errors
+

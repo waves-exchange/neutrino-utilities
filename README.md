@@ -83,4 +83,6 @@ You must allow your node REST API at least for localhost:
 ```
 Edit the script - insert your node private key and actual base64-encoded script instead of script = 'base64:' line.
 Run the script, make sure there are no errors
-
+```
+python3 set_script.py
+```

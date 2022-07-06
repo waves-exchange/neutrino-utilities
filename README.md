@@ -71,7 +71,7 @@ sudo apt install python3-testresources
 pip install pywaves
 ```
 
-You must allow your node REST API at least for localhost:
+Either allow your node REST API for localhost:
 ```
   # Node's REST API settings
   rest-api {
@@ -80,6 +80,10 @@ You must allow your node REST API at least for localhost:
 
     # Network address to bind to
     bind-address = "127.0.0.1"
+```
+or change node url in the python script to any public node, e.g.
+```
+pw.setNode('https://nodes.wavesnodes.com', chain='mainnet')
 ```
 Edit the script - insert your node private key and actual base64-encoded script instead of script = 'base64:' line.
 Run the script, make sure there are no errors

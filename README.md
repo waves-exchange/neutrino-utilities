@@ -90,7 +90,7 @@ Run the script.
 
 NOTES:
 * source file in RIDE is passed via pipe
-* there is 30 sec delay between setting the script and calling the constructor), make sure there are no errors
+* there is 30 sec delay between setting the script and calling the constructor, make sure there are no errors
 ```
 curl https://raw.githubusercontent.com/waves-exchange/neutrino-contract/master/script/generator.ride | python3 set_script.py
 ```

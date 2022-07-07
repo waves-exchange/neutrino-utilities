@@ -86,7 +86,8 @@ or change node url in the python script to any public node, e.g.
 pw.setNode('https://nodes.wavesnodes.com', chain='mainnet')
 ```
 Edit the script - insert your node private key and actual base64-encoded script instead of script = 'base64:...' line. Edit your beneficiary address (where the 5% of rewards will be sent).
-Run the script (NOTES:
+Run the script
+NOTES:
 * source file in RIDE is passed via pipe
 * there is 30 sec delay between setting the script and calling the constructor), make sure there are no errors
 ```

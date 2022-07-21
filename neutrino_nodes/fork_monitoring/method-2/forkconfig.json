@@ -1,0 +1,30 @@
+{
+	"thenode" : {
+    "node_api" : "",
+		"node_apikey" : "",
+		"nodename" : ""
+	},
+
+	"forktoolsconfig" : {
+	  "controlnodes" : {"http://#####:6869" : "up",
+      "http://#####:6869" : "up",
+      "http://#####:6869" : "up",
+      "http://#####:6869" : "up",
+      "http://#####:6869" : "up"},
+
+		"auto_rollback" : "no",
+		"lastblockheight" : "/blocks/height",
+		"blockheaders" : "/blocks/headers/at/",
+		"rollback_blocks" : "2000"
+	},
+
+	"telegramconfig" : {
+		"use" : "yes",
+		"telegram_api" : "https://api.telegram.org/bot",
+		"telegram_token" : "",
+		"telegram_chat_id" : "",
+		"telegram_group" : "",
+		"telegram_botuser" : ""
+	}
+
+}

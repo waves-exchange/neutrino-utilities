@@ -17,7 +17,7 @@ payments=[{"assetId": None, "amount": 2400000000}], # fixed amount of 24 waves -
 feeAsset = None, txFee=fee)
 
 else:
-    result = "Not generated reward of 24 waves to do invoce - distributeMinerReward. Current balance of Waves: " + str(amount / 100000000)
+    result = "Not generated reward of 24 waves to do invoke - distributeMinerReward. Current balance of Waves: " + str(amount / 100000000)
 
 now = dt.datetime.now()
 print(now.strftime("%Y-%m-%d %H:%M:%S"))

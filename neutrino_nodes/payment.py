@@ -9,7 +9,7 @@ fee = pw.DEFAULT_INVOKE_SCRIPT_FEE
 
 amount = myAddress.balance() - fee
 
-if amount > 2400000000:
+if amount >= 2400000000:
 
  result = myAddress.invokeScript(dappAddress, 'distributeMinerReward',
 params=[{"type": "string", "value": beneficiaryAddress}],
